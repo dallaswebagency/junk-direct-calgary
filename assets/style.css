@@ -105,3 +105,12 @@ footer .fg{grid-template-columns:1.5fr 1fr 1.1fr 1fr 1fr;gap:32px}footer h4{marg
 /* header quote button on mobile */
 @media(max-width:760px){.cta{gap:10px}.cta .btn.sm{display:inline-flex;min-height:44px;padding:0 18px;font-size:14.5px;white-space:nowrap}.burger{width:44px;height:44px}}
 @media(max-width:420px){.nav{gap:8px}.nav .logo{height:46px}.cta{gap:8px}.cta .btn.sm{padding:0 13px;font-size:13.5px}.burger{width:42px;height:42px}}
+/* qa tap targets */
+footer li a{min-width:44px}.quote small a{display:inline-block;padding:10px 4px;font-weight:700}.fbot a{min-height:40px}
+
+/* photo upload */
+.drop{position:relative;border:2px dashed var(--line);border-radius:14px;background:#faf9f8;transition:border-color .2s,background .2s}.drop:hover,.drop:focus-within{border-color:var(--g);background:#fdf3f3}
+.drop input{position:absolute;inset:0;width:100%;height:100%;opacity:0;cursor:pointer;padding:0;border:0;z-index:2}
+.dt{display:flex;align-items:center;gap:14px;padding:18px;color:var(--g)}.dt span{display:grid;color:var(--ink)}.dt small{font-size:13px;color:#666}
+.thumbs{list-style:none;margin:12px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:10px}.thumbs li{position:relative;width:76px;height:76px}.thumbs img{width:100%;height:100%;object-fit:cover;border-radius:10px;border:1px solid var(--line)}.thumbs button{position:absolute;top:-8px;right:-8px;width:28px;height:28px;border-radius:50%;border:0;background:var(--gd);color:#fff;font-size:18px;line-height:1;cursor:pointer}
+.dt svg{flex:none}
