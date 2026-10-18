@@ -114,3 +114,7 @@ footer li a{min-width:44px}.quote small a{display:inline-block;padding:10px 4px;
 .dt{display:flex;align-items:center;gap:14px;padding:18px;color:var(--g)}.dt span{display:grid;color:var(--ink)}.dt small{font-size:13px;color:#666}
 .thumbs{list-style:none;margin:12px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:10px}.thumbs li{position:relative;width:76px;height:76px}.thumbs img{width:100%;height:100%;object-fit:cover;border-radius:10px;border:1px solid var(--line)}.thumbs button{position:absolute;top:-8px;right:-8px;width:28px;height:28px;border-radius:50%;border:0;background:var(--gd);color:#fff;font-size:18px;line-height:1;cursor:pointer}
 .dt svg{flex:none}
+/* header button never wraps */
+.cta{flex:none}.cta .btn.sm{white-space:nowrap;flex:none}.logo{flex:none}
+@media(min-width:1081px) and (max-width:1320px){.nav{gap:16px}.menu{gap:16px}.menu a{font-size:14.5px}.tel{font-size:15px}.cta{gap:12px}}
+@media(min-width:1081px) and (max-width:1180px){.tel{display:none}}
