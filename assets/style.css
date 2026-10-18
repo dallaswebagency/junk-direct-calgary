@@ -14,7 +14,7 @@ header.site{position:sticky;top:0;z-index:100;background:#fff;border-bottom:1px 
 .brand{display:flex;align-items:center;gap:10px;text-decoration:none;flex:none}.mark{width:42px;height:42px;border-radius:12px;background:var(--g);color:#fff;font-family:var(--hf);font-weight:800;display:grid;place-items:center;font-size:17px}.wm{font-family:var(--hf);font-weight:700;font-size:23px;letter-spacing:-.03em}.wm b{color:var(--g);font-weight:800}
 .nav nav{margin-left:auto}.menu{display:flex;gap:24px;list-style:none;margin:0;padding:0}.menu a{text-decoration:none;font-weight:600;font-size:15.5px;white-space:nowrap}.menu a:hover{color:var(--g)}
 .cta{display:flex;align-items:center;gap:16px}.tel{font-weight:700;text-decoration:none;white-space:nowrap}.burger{display:none;width:46px;height:46px;border:1.5px solid var(--ink);background:#fff;border-radius:10px;padding:0;cursor:pointer}.burger span{display:block;width:20px;height:2px;background:var(--ink);margin:5px auto}
-@media(max-width:1080px){.nav{gap:12px}.nav nav{margin-left:0}.menu{display:none;position:absolute;left:0;right:0;top:100%;background:#fff;flex-direction:column;gap:0;border-bottom:1px solid var(--line);padding:6px 24px 14px;box-shadow:0 14px 24px rgba(0,0,0,.08)}.menu.open{display:flex}.menu a{display:block;padding:14px 0;border-bottom:1px solid var(--line)}.cta{margin-left:auto}.burger{display:block}.tel{display:none}}
+@media(max-width:1260px){.nav{gap:12px}.nav nav{margin-left:0}.menu{display:none;position:absolute;left:0;right:0;top:100%;background:#fff;flex-direction:column;gap:0;border-bottom:1px solid var(--line);padding:6px 24px 14px;box-shadow:0 14px 24px rgba(0,0,0,.08)}.menu.open{display:flex}.menu a{display:block;padding:14px 0;border-bottom:1px solid var(--line)}.cta{margin-left:auto}.burger{display:block}.tel{display:none}}
 .hero{background:radial-gradient(1200px 500px at 85% 0,#2a8556 0,transparent 60%),var(--gd);color:#fff;padding:84px 0 96px;overflow:hidden}.hero .wrap{display:grid;grid-template-columns:1.05fr 1fr;gap:48px;align-items:center}
 .pill{display:inline-block;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.25);padding:6px 16px;border-radius:999px;font-size:14px;font-weight:600;margin-bottom:22px}
 .hero h1 em{font-style:normal;color:var(--y)}.lead{font-size:20px;color:#d7e6dc;max-width:52ch;margin:0}
@@ -118,3 +118,6 @@ footer li a{min-width:44px}.quote small a{display:inline-block;padding:10px 4px;
 .cta{flex:none}.cta .btn.sm{white-space:nowrap;flex:none}.logo{flex:none}
 @media(min-width:1081px) and (max-width:1320px){.nav{gap:16px}.menu{gap:16px}.menu a{font-size:14.5px}.tel{font-size:15px}.cta{gap:12px}}
 @media(min-width:1081px) and (max-width:1180px){.tel{display:none}}
+
+/* real web fonts are wider than fallbacks: keep the phone number for wide screens only */
+@media(min-width:1261px) and (max-width:1440px){.tel{display:none}.menu{gap:20px}}
